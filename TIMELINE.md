@@ -1,6 +1,6 @@
-# Yun Agent Lab · 时间线 · v0.1.1
+# Yun Agent Lab · 时间线 · Autonomous Operation v0.1
 
-公开研究档案 · v0.1.1。**本档案首次公开日期：2026-10-27。**
+公开研究档案 · Autonomous Operation v0.1 里程碑更新。**本档案首次公开日期：2026-10-27。**
 
 以下是内部证据支持的实验历史，日期统一为 America/Tijuana（当期 UTC−07）。UTC 锚点来自运行记录与系统回执；这些仍属内部生成的时间证据，不是可信第三方对历史实验的时间认证。内部报告另有生成日期或更新时间，不能与实验时间混用。
 
@@ -21,6 +21,9 @@
 | 2026-10-26～27 | AR-AUTONOMY-002 | VERIFIED（合成故障实验）/ 整体 PARTIAL | VPS 非阻塞队列及三类受审恢复；首轮测试入口错误和后续成功分存。首次原生唤醒 UTC 2026-10-27 06:27 |
 | 2026-10-27 | AR-DEFAULT-ALLOW-R2 | 管理权限及限定生命周期 VERIFIED / 整体 PARTIAL | 受信管理账户广泛管理员权限、临时 systemd 服务创建→启动→停止→撤销通过；生产 Controller 自主利用管理权限尚未验收。操作 UTC 12:19，独立核验 UTC 12:24 |
 | 2026-10-27 | PUBLIC-v0.1 | PUBLISHED（发布） | 首版四文件已公开，v0.1标签与Release保留；该日期是公开日期，不回填为历史实验日期 |
+| 2026-10-30 | Autonomous Operation v0.1 | VERIFIED_SCOPED | 生产连续自主研发、额度恢复后自动 Wake；17项历史及1项新增交付阻断经有界工程修复、逐项重验后恢复，随后 Turn 173 新成果自然交付。不证明完整自我进化或系统级自主维修 |
+
+时间线各历史行保留当时验收状态；较新的生产进展不倒填为早期实验已经成功。
 
 R017-VIDEO 是本地视频研究实验的消歧名称。Drive 中也有名为 R017 的跨平台目标规划；目前没有证据证明该跨平台任务已通过，二者不得合并。
 
@@ -32,3 +35,9 @@ R017-VIDEO 是本地视频研究实验的消歧名称。Drive 中也有名为 R0
 | v0.1 Release发布 | 2026-10-27 15:51:13Z | 2026-10-27 08:51:13 | [GitHub v0.1 Release](https://github.com/rosarinayun-cloud/yun-agent-lab-showcase/releases/tag/v0.1)的published_at |
 
 首次内容推送已于UTC 15:51:01.539932完成本机观察，发生在上述仓库创建与该观察之间；没有独立服务端秒级推送回执，不将本机观察时间冒充精确首次内容公开时间。公开 Git 的 author/committer 时间仅作辅助，签名或摘要也不能反向证明过去实验的准确日期。
+
+## 本次里程碑公开范围
+
+Autonomous Operation v0.1 是能力里程碑名称，不覆盖既有 v0.1、v0.1.1 标签或 Release。生产复核日期为2026-10-30（America/Tijuana）；本次文档公开更新对应 UTC 2026-10-31、America/Tijuana 2026-10-30，提交记录见[公开提交历史](https://github.com/rosarinayun-cloud/yun-agent-lab-showcase/commits/main/)。不把实验时间当作公开时间，也不以 Git 时间反推历史实验日期。
+
+此次只更新 README、里程碑与时间线；版权与保密范围不变。不附生产源码、内部敏感实现、日志、凭据或部署信息。
